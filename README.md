@@ -32,7 +32,7 @@ This repository contains a script to convert DICOM (Digital Imaging and Communic
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/traczewskim/dicom-converter.git
+    git clone https://github.com/traczewskim/dicom-to-jpeg-converter.git
     ```
 
 2. Navigate to the repository directory:
@@ -44,7 +44,7 @@ This repository contains a script to convert DICOM (Digital Imaging and Communic
 3. Run the conversion script:
 
     ```bash
-    ./convert_dcm_to_jpg.sh /path/to/input/dicom/images
+    ./dcom-converter.sh /path/to/input/dicom/images
     ```
 
     Replace `/path/to/input/dicom/images` with the directory containing your DICOM images. Converted images will be saved in `./jpg` directory.
